@@ -1,0 +1,19 @@
+{
+  "name": "testagain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"webpack",
+    "watch": "webpack --progress --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "web": "0.0.2",
+    "webpack": "^5.12.3",
+    "webpack-cli": "^4.3.1"
+  }
+}
