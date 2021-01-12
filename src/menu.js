@@ -32,15 +32,15 @@ function menu(){
     
 
     cont2.appendChild(menu1H1)
-    menu1P.src="/images/menu1.jpeg";
+    menu1P.src="./images/menu1.jpeg";
     cont2.appendChild(menu1P)
 
     cont3.appendChild(menu2H1)
-    menu2P.src="/images/menu2.jpeg";
+    menu2P.src="./images/menu2.jpeg";
     cont3.appendChild(menu2P)
 
     cont4.appendChild(menu3H1)
-    menu3P.src="/images/menu3.jpeg";
+    menu3P.src="./images/menu3.jpeg";
     cont4.appendChild(menu3P)
 
 }
