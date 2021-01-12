@@ -1,8 +1,13 @@
-import { buttons } from "./buttons"
+
 
 function contact(){
-    content.innerHTML="";
-    buttons();
+    let element = document.getElementById("content");
+        while (element.firstChild) {
+            console.log(element.firstChild)
+          element.removeChild(element.firstChild);
+          console.log(element.firstChild)
+        }
+    
     const cont1 = document.createElement('div');
     const h2 = document.createElement('h2');
     const text = document.createElement('p');

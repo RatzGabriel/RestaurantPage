@@ -1,9 +1,13 @@
-import { buttons } from "./buttons"
+
 
     function homepage(){
-        
-        content.innerHTML="";
-        buttons()
+        let element = document.getElementById("content");
+        while (element.firstChild) {
+            console.log(element.firstChild)
+          element.removeChild(element.firstChild);
+          console.log(element.firstChild)
+        }
+        console.log('nr2');
         const cont1 = document.createElement('div');
         const image = document.createElement('IMG');
         const para = document.createElement('p');
