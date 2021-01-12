@@ -1,0 +1,29 @@
+:root{
+    background-color: #291720;
+    color: white;
+    }
+    
+    #contBtn{
+        display: flex;
+        justify-content: space-around;
+        padding: 1rem;
+    }
+    #content{
+        display: flex;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .cont1{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    
+    .text{
+        padding: 0rem 30rem;
+    }
+    
